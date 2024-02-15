@@ -20,3 +20,5 @@ BEGIN
     -- Supprimer le guitariste dans la table Guitaristes
     DELETE FROM Guitaristes WHERE Id_Guitaristes = @id;
 END
+
+--
